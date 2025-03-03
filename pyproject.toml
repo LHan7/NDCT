@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "torchpress"
+version = "0.0.1"
+authors = [
+  { name="LHan", email="1155217600@link.cuhk.edu.hk" },
+]
+description = "A compressor for nd-tensor with discrete cosine transform"
+readme = "README.md"
+
+dependencies = [
+  "einops",
+  "scipy",
+  "torch",
+  "torch_dct",
+]
+
+license = { file = "LICENSE" }
+
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/LHan7/NDCT"
+Issues = "https://github.com/LHan7/NDCT/issues"

@@ -1,0 +1,4 @@
+einops==0.8.1
+scipy==1.15.2
+torch==2.5.1
+torch_dct==0.1.6
