@@ -1,5 +1,9 @@
 ## NDCT
 A compressor for nd-tensor with discrete cosine transform
+## Install
+```python
+pip install torchpress
+```
 ## Usage
 ```python
 import torch
