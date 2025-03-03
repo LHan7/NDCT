@@ -1,4 +1,4 @@
-## NDCT
+## NDCT-II
 A compressor for nd-tensor with discrete cosine transform
 ## Install
 ```python
